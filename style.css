@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+body {
+    background: #F3F5FC;
+}
+
+.cabecalho {
+    background: #b7c6ff;
+}
+
+.cabecalho_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecalho_nav_logoAlura {
+    margin-top: 2%;
+    width: 4%;
+    height: 100%;
+}
+
+.cabecalho_nav_logoOne {
+    width: 10%;
+}
+
+.cabecalho_nav_logoNovaes {
+    width: 10%;
+    height: 8%;
+    margin-left: 1.5%;
+    margin-top: 2.1%;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    gap: 5%;
+}
+
+.conteudo_input {
+    display: flex;
+    flex-direction: column;
+    gap: 6.5%;
+}
+
+.conteudo_input_text-area {
+    background: #F3F5FC;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    text-transform: lowercase;
+    padding: 2%;
+    resize: none;
+}
+
+::placeholder { 
+    color: #495057;
+}
+
+.conteudo_input_informacao {
+    color: #495057;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_input_informacao_texto {
+    font-size: 45%;
+}
+
+.conteudo_input_buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteudo_input_buttons_btnCripto {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #ffff;
+    cursor: pointer;
+    height: 140%;
+    width: 40%;
+}
+
+.conteudo_input_buttons_btnCripto:hover {
+    background-color: #2e5c94;
+}
+
+.conteudo_input_buttons_btnDescripto {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 140%;
+    width: 40%;
+}
+
+.conteudo_input_buttons_btnDescripto:hover {
+    background-color: #a6a9ad;
+}
+
+.conteudo_result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo_result_mensagem {
+    background: #ffff;
+    background-image: url(img/msgSearch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    padding: 3%;
+    margin-bottom: 11%;
+    resize: none;
+}
+
+.conteudo_result_mensagem:focus {
+    outline: none;
+}
+
+.conteudo_result_btnCopy {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 9%;
+    width: 90%;
+}
+
+.conteudo_result_btnCopy:hover {
+    background-color: #D8DFE8;
+}
+
+.rodape {
+    display: flex;
+    background-color: #b7c6ff;
+    justify-content: center;
+    gap: 0.6%;
+    padding: 2%;
+}
+
+.rodape_texto {
+    font-weight: 600;
+    font-size: 60%;
+}

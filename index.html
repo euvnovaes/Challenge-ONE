@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge One</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <header class="cabecalho">
+        <nav class="cabecalho_nav">
+            <img class="cabecalho_nav_logoAlura" src="img/logoAlura.png" alt="Logo da Alura">
+            <img class="cabecalho_nav_logoOne" src="img/OracleLogo.png" alt="Logo da One">
+            <img class="cabecalho_nav_logoNovaes" src="img/DevNovaes.png" alt="Logo DevNovaes">
+        </nav>
+    </header>
+
+    <main class="conteudo">
+
+        <section class="conteudo_input">
+
+            <textarea class="conteudo_input_text-area" cols="60" rows="13" placeholder="Digite seu texto"></textarea>
+
+            <div class="conteudo_input_informacao">
+                <p class="conteudo_input_informacao_texto">Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="conteudo_input_buttons">
+                <button class="conteudo_input_buttons_btnCripto" onclick="btnEncriptar()">Criptografar</button>
+                <button class="conteudo_input_buttons_btnDescripto" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+
+        </section>
+
+        <section class="conteudo_result">
+            <textarea class="conteudo_result_mensagem" cols="30" rows="15"></textarea>
+            <button class="conteudo_result_btnCopy" onclick="copiarTexto()">Copiar</button>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape_texto">Desenvolvido por DevNovaes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
